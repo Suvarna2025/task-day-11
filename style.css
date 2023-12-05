@@ -1,0 +1,33 @@
+body{
+    display: flex;
+     flex-direction: row !important;
+     flex-wrap: wrap;
+     justify-content: center;
+     align-items: flex-start;
+     background-color: lightgoldenrodyellow !important;
+   
+ }
+ .card{
+     margin-top: 30px;
+     margin-left: 30px;
+     width: 300px;
+     height: 300px;
+     border: 5px solid brown !important;
+     background-color: white!important;
+ }
+ .card-body{
+     background-color: white!important;
+     color: blue !important;
+ }
+ .card-img-top{
+     width: auto;
+     height: 200px;
+     margin: auto;
+     border: 2px solid brown !important;
+ }
+ .card-header{
+    background-color: yellowgreen!important;
+    color: black !important;
+    font-weight: bolder;
+    font-size:larger;
+ }
